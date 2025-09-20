@@ -10,8 +10,7 @@ import os
 async def main():
     """_summary_
     """
-    client = MultiServerMCPClient
-    (
+    client = MultiServerMCPClient(
         
         {
             "calculator":{
