@@ -33,7 +33,7 @@ async def main():
     )
     tools = await client.get_tools()
     
-    model = ChatGroq(model="qwen-qwq-32b")
+    model = ChatGroq(model="deepseek-r1-distill-llama-70b")
     
     agent = create_react_agent(model, tools)
     
