@@ -12,3 +12,6 @@ async def get_weather(lcation:str)->str:
         str: _description_
     """
     return "weather in banglore is raniy"
+
+if __name__=="__main__":
+    mcp.run(transport="streamable-http")
