@@ -8,5 +8,6 @@ dependencies = [
     "langchain>=0.3.27",
     "langchain-groq>=0.3.8",
     "langchain-mcp-adapters>=0.1.10",
+    "langgraph>=0.6.7",
     "mcp>=1.14.1",
 ]
